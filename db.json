@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "name": "Sony Headphones",
+      "description": "black",
+      "category": "Other",
+      "price": 3000,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/jetxj9yeAb8e5DA0U5lP/image.jpg",
+      "id": "gYv22CCe4Ts"
+    },
+    {
+      "name": "leather bag",
+      "description": "brown",
+      "category": "Other",
+      "price": 3600,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/Y9yfttjnQtIdYkjAVy1Y/image.jpg",
+      "id": "GLbAgFF6Z9I"
+    },
+    {
+      "name": "smart watch",
+      "description": "black",
+      "category": "Other",
+      "price": 2300,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/KhRMbPWfuYZhJ58m9fjH/image.jpg",
+      "id": "PwSwkeEugtc"
+    },
+    {
+      "name": "Mechanical keyboard",
+      "description": "white",
+      "category": "Other",
+      "price": 22560,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/kbDBbs23YfcEoCGGdftt/image.jpg",
+      "id": "UiS96AYhxvM"
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "description": "black with light rainbow colors when on",
+      "category": "Other",
+      "price": 1500,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/OsLZWBcsyCghOoWDxYuJ/image.jpg",
+      "id": "liaR6oULKqo"
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "description": "jbl",
+      "category": "Speakers",
+      "price": 5000,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/uWkzmsJzN5dTEz9IHHBQ/image.jpg",
+      "id": "jvEMvV1EfBI"
+    },
+    {
+      "name": "Televion",
+      "description": "TCL 65 inch",
+      "category": "Other",
+      "price": 50000,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/MIYMAuuI6kSxV3rm4C1v/image.jpg",
+      "id": "y8LswifbIrM"
+    },
+    {
+      "name": "PS5",
+      "description": "white pro",
+      "category": "Other",
+      "price": 110000,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/6lkriETuCK7cjX5xPNO5/image.jpg",
+      "id": "Y7fmrFasr_o"
+    },
+    {
+      "name": "laptop",
+      "description": "macbook",
+      "category": "Other",
+      "price": 100000,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/bZAwbhkQUrPw8ehm1b9E/image.jpg",
+      "id": "WdYgsrOz8r8"
+    },
+    {
+      "name": "Airpods",
+      "description": "white",
+      "category": "Other",
+      "price": 3500,
+      "inStock": true,
+      "image": "https://plain-eeur-prod-public.komododecks.com/202611/23/FsaMDdSSjQ3ZBvjhLlue/image.jpg",
+      "id": "vbdOxGSaMYI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

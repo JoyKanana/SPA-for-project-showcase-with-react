@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "High-quality wireless headphones.",
+      "price": 6500,
+      "image": "https://placehold.co/300x200?text=Headphones"
+    },
+    {
+      "id": 2,
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with powerful sound.",
+      "price": 10000,
+      "image": "https://placehold.co/300x200?text=Speaker"
+    },
+    {
+      "id": 3,
+      "name": "Mechanical Keyboard",
+      "description": "Comfortable keyboard for everyday use.",
+      "price": 25000,
+      "image": "https://placehold.co/300x200?text=Keyboard"
+    }
+  ]
+}

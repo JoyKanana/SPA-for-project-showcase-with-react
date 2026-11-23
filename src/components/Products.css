@@ -1,0 +1,240 @@
+.products-page {
+  color: #1F2937;
+}
+
+.products-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.products-heading h1 {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+.products-heading p {
+  margin: 0;
+  font-size: 14px;
+  color: #6B7280;
+}
+
+.search-bar {
+  margin-bottom: 24px;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 448px;
+  padding: 12px;
+  background: #FAF5FF;
+  border: 1px solid #E9D5FF;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1F2937;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: #6B7280;
+}
+
+.search-bar input:focus {
+  border-color: #673F89;
+  box-shadow: 0 0 0 2px rgba(103, 63, 137, 0.3);
+}
+
+.product-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filter-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.filter-group input,
+.filter-group select {
+  min-width: 150px;
+  padding: 10px;
+  background: #FAF5FF;
+  border: 1px solid #E9D5FF;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1F2937;
+  outline: none;
+}
+
+.filter-group input:focus,
+.filter-group select:focus {
+  border-color: #673F89;
+  box-shadow: 0 0 0 2px rgba(103, 63, 137, 0.3);
+}
+
+.product-filters > button,
+.error-message button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #673F89;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.product-filters > button:hover,
+.error-message button:hover {
+  background: #563373;
+}
+
+.product-filters > button:focus-visible,
+.error-message button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(103, 63, 137, 0.4);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  display: block;
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  padding: 12px;
+  background: #FAF5FF;
+}
+
+.product-details {
+  padding: 16px;
+}
+
+.product-details h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1F2937;
+}
+
+.product-details p {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6B7280;
+}
+
+.product-details .product-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #673F89;
+}
+
+.product-actions {
+  margin-top: 16px;
+}
+
+.delete-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #FEF2F2;
+  color: #DC2626;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.delete-button:hover {
+  background: #FEE2E2;
+}
+
+.delete-button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.3);
+}
+
+.loading-message,
+.empty-state {
+  padding: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #6B7280;
+}
+
+.empty-state {
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.empty-state h3 {
+  margin: 0 0 8px;
+  color: #1F2937;
+}
+
+.error-message {
+  padding: 20px;
+  background: #FEF2F2;
+  color: #B91C1C;
+  border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+  .products-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-group input,
+  .filter-group select {
+    width: 100%;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
